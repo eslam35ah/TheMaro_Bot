@@ -23,7 +23,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   							{
   								name: 'single_select',
   						  	buttonParamsJson: JSON.stringify({
-  						  		title: 'Click Me',
+  						  		title: '*⌝قـائـمـه الاوامـر⌞*',
   						  		sections: [
   						  			{
   						  				title: 'List',
