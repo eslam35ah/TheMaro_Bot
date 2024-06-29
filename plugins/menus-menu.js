@@ -41,9 +41,9 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'ON',
   						  				rows: [
   						  					{
-  						  		    		header: 'Test',
-  										      title: '.سفروت1',
-  									    	  description: '.سفروت1',
+  						  		    		header: 'قـسـم الـجـروبب',
+  										      title: '.مارو1',
+  									    	  description: '',
   								    		  id: 'tes'
   						  		    	}
   						  				]
@@ -52,9 +52,9 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'ON',
   						  				rows: [
   						  					{
-  						  		    		header: 'قسم الادمن',
-  										      title: '',
-  									    	  description: 'مارو1',
+  						  		    		header: 'قـسـم الـتـرفـيـه',
+  										      title: '.مارو2',
+  									    	  description: '',
   								    		  id: 'te'
   						  		    	}
   						  				]
