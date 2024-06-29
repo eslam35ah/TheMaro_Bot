@@ -25,6 +25,6 @@ const handler = async (m, {conn, text}) => {
   }
 };
 handler.help = ['wm <packname>|<author>'];
-handler.tags = ['sticker', 'ملصق', 'استيكر'];
+handler.tags = ['sticker'];
 handler.command = /^take|robar|wm$/i;
 export default handler;
