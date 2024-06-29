@@ -3,7 +3,7 @@
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00CB22&width=435&lines=بوت+مارو+بوت+قابل+للتطوير;كل+شي+غير+مشفر+استمتع+وشكرا+لك+%3A3;%5B+مارو+هو+المطور+تدعمه+7لاتنسى+%5D_)](https://git.io/typing-svg)
-<img src="[https://c.tenor.com/D2H0hPltOdYAAAAM/golden-boy-fake-keyboard-programing-coding-paper-book.gif](https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg)" width="400" height="230"/>
+<img src="[https://telegra.ph/file/3782975aafc54e78e9d0c.mp4](https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg)" width="400" height="230"/>
 </div>
 <br>
 ##`follow me شرح تشغيل لبوت`
