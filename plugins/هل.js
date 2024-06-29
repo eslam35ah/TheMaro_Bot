@@ -5,7 +5,7 @@ function handler(m, { groupMetadata, command, conn, text, usedPrefix}) {
 if (!text) throw `*أدخــل الـسـؤال !*`
 let ps = groupMetadata.participants.map(v => v.id)
 let a = ps.getRandom()
-let x = `${pickRandom(['احــتـمـال قـلـيـل' ,'نــعم بـالـتـأكـيد', 'لا أعـتـقـد', 'مــستـحـيــل'])}`
+let x = `${pickRandom(['احــتـمـال قـلـيـل' ,'اه😅', 'مـش مـتـأڪـد🙂', 'اڪـيـد لا🙄'])}`
 let l = Math.floor(Math.random() * x.length);
 let top = `*هــل ${text}*
 
