@@ -42,8 +42,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
+  										      title: 'سفروت1.',
+  									    	  description: 'سفروت1.',
   								    		  id: 'tes'
   						  		    	}
   						  				]
