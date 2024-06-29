@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/3782975aafc54e78e9d0c.mp4';
+let videoUrl = 'https://telegra.ph/file/73ef7488ba7f7f3e613ee.mp4';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -46,18 +46,18 @@ let str = `
 
 *┃━━━━━⬣𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⬣━━━━━┃*
 
-*⌝♻️⌞┊⿻ ⇤ /ملصق*
-*⌝♻️⌞┊⿻ ⇤ /سرقة*
-*⌝♻️⌞┊⿻ ⇤ /لفيديو*
-*⌝♻️⌞┊⿻ ⇤ /لصورة*
-*⌝♻️⌞┊⿻ ⇤ /لانمي*
-*⌝♻️⌞┊⿻ ⇤ /تخيل*
-*⌝♻️⌞┊⿻ ⇤ /مكس*
-*⌝♻️⌞┊⿻ ⇤ /لجواهر*
-*⌝♻️⌞┊⿻ ⇤ /ستك*
-*⌝♻️⌞┊⿻ ⇤ /تلجراف*
-*⌝♻️⌞┊⿻ ⇤ /لكرتون*
-*⌝♻️⌞┊⿻ ⇤ /باركود*
+*『 ♻️ 』 ⇇╎ملصق』*
+*『 ♻️ 』 ⇇╎سرقة』*
+*『 ♻️ 』 ⇇╎لفيديو』*
+*『 ♻️ 』 ⇇╎لصورة』*
+*『 ♻️ 』 ⇇╎لانمي』*
+*『 ♻️ 』 ⇇╎تخيل』*
+*『 ♻️ 』 ⇇╎مكس』*
+*『 ♻️ 』 ⇇╎لجواهر』*
+*『 ♻️ 』 ⇇╎ستك』*
+*『 ♻️ 』 ⇇╎تلجراف』*
+*『 ♻️ 』 ⇇╎لكرتون』*
+*『 ♻️ 』 ⇇╎باركود』*
 
 *┃━━━━━⬣𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⬣━━━━━┃*
 ‬`.trim();
@@ -70,7 +70,7 @@ conn.sendMessage(m.chat, {
 }; 
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = /^(مارو6)$/i
+handler.command = /^(قسم6)$/i
 
 export default handler
 function clockString(ms) {
