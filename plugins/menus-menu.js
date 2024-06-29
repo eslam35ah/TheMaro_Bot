@@ -8,12 +8,12 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/b63528315a84c3205ed98.jpg'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: `test`.trim() },
-            footer: { text: `𝙏𝙝𝙚𝙎𝙖𝙛𝙧𝙤𝙩𝘽𝙤𝙩`.trim() },  
+            footer: { text: `*𝙏𝙝𝙚𝙈𝙫𝙧𝙤-𝘽𝙤𝙩*`.trim() },  
             header: {
-                title: `*┃━━━━━⬣♯ЅᗩFᏒOT꙯-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐نورت يا حب بوت سفروت🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}`,
+                title: `*┃━━━━━⬣𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐نورت يا حب بوت سفروت🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}`,
                 subtitle: ``,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
@@ -54,7 +54,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  					{
   						  		    		header: 'قسم الادمن',
   										      title: '',
-  									    	  description: 'ما',
+  									    	  description: '.مارو1',
   								    		  id: 'سفروت1'
   						  		    	}
   						  				]
@@ -65,7 +65,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  					{
   						  		    		header: 'قسم الادمن',
   										      title: '',
-  									    	  description: 'مارو1',
+  									    	  description: '.مارو1',
   								    		  id: 'سفروت2'
   						  		    	}
   						  				]
@@ -76,7 +76,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  					{
   						  		    		header: 'قسم الادمن',
   										      title: '',
-  									    	  description: 'مارو1',
+  									    	  description: '.مارو1',
   								    		  id: 'سفروت2'
   						  		    	}
   						  				]
@@ -87,7 +87,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  					{
   						  		    		header: 'قسم الادمن',
   										      title: '',
-  									    	  description: 'مارو1',
+  									    	  description: '.مارو1',
   								    		  id: 'سفروت2'
   						  		    	}
   						  				]
