@@ -72,7 +72,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'كـل اللي يخصني',
+                                      display_text: '*⌝كـل الـلـي يـخـصـنـي⌞*',
                                       url: 'https://www.atom.bio/m_vro1',
                                       merchant_url: ''
                                   })
