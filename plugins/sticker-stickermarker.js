@@ -40,5 +40,5 @@ ${effects.map((effect) => `_> ${effect}_`).join('\n')}
 };
 handler.help = ['stickmaker (caption|reply media)'];
 handler.tags = ['General'];
-handler.command = /^(stickmaker|stickermaker|stickermarker|cs)$/i;
+handler.command = /^(stickmaker|stickermaker|stickermarker|cs|حقوق)$/i;
 export default handler;
