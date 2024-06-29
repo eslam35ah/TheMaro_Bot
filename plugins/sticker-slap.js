@@ -35,5 +35,5 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
 };
 handler.help = ["slap"];
 handler.tags = ["General"];
-handler.command = /^(slap|bofetada)$/i;
+handler.command = /^(slap|bofetada|صفع)$/i;
 export default handler;
