@@ -8,12 +8,12 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/b63528315a84c3205ed98.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
-            body: { text: ``.trim() },
-            footer: { text: `𝙏𝙝𝙚𝙈𝙫𝙧𝙤-𝘽𝙤𝙩`.trim() },  
+            body: { text: `test`.trim() },
+            footer: { text: `𝙏𝙝𝙚𝙎𝙖𝙛𝙧𝙤𝙩𝘽𝙤𝙩`.trim() },  
             header: {
-                title: `*┃━━━━━⬣𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐اهـلا بـيـك فـي بـوت مـارو🧛🏻‍♂️*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}\n\n*◞❐البوت يعمل في الخاص والجروبات*`,
+                title: `*┃━━━━━⬣♯ЅᗩFᏒOT꙯-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐نورت يا حب بوت سفروت🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}`,
                 subtitle: ``,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
@@ -41,21 +41,87 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'ON',
   						  				rows: [
   						  					{
-  						  		    		header: 'قـسـم الـجـروبب',
-  										      title: '.مارو1',
-  									    	  description: '',
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
   								    		  id: 'tes'
   						  		    	}
   						  				]
-  						  			},
+  						        	},
   						  			{
   						  				highlight_label: 'ON',
   						  				rows: [
   						  					{
-  						  		    		header: 'قـسـم الـتـرفـيـه',
-  										      title: '.مارو2',
-  									    	  description: '',
-  								    		  id: 'te'
+  						  		    		header: 'قسم الادمن',
+  										      title: '',
+  									    	  description: 'ما',
+  								    		  id: 'سفروت1'
+  						  		    	}
+  						  				]
+                                    },
+  						  			{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'قسم الادمن',
+  										      title: '',
+  									    	  description: 'مارو1',
+  								    		  id: 'سفروت2'
+  						  		    	}
+  						  				]
+                                        },
+  						  			{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'قسم الادمن',
+  										      title: '',
+  									    	  description: 'مارو1',
+  								    		  id: 'سفروت2'
+  						  		    	}
+  						  				]
+                                        },
+  						  			{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'قسم الادمن',
+  										      title: '',
+  									    	  description: 'مارو1',
+  								    		  id: 'سفروت2'
+  						  		    	}
+  						  				]
+                                        },
+  						  			{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'قسم الادمن',
+  										      title: '',
+  									    	  description: 'مارو1',
+  								    		  id: 'سفروت2'
+  						  		    	}
+  						  				]
+                                        },
+  						  			{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'قسم الادمن',
+  										      title: '',
+  									    	  description: 'مارو1',
+  								    		  id: 'سفروت2'
+  						  		    	}
+  						  				]
+                                        },
+  						  			{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'قسم الادمن',
+  										      title: '',
+  									    	  description: 'مارو1',
+  								    		  id: 'سفروت2'
   						  		    	}
   						  				]
   						  			}
@@ -72,8 +138,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '⌝كـل الـلـي يـخـصـنـي⌞',
-                                      url: 'https://www.atom.bio/m_vro1',
+                                      display_text: 'منصاتي🤺🔥',
+                                      url: 'https://www.atom.bio/safrotbob-376',
                                       merchant_url: ''
                                   })
                               },
