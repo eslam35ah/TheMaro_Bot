@@ -8,7 +8,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/3782975aafc54e78e9d0c.mp4'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ video: {url: 'https://telegra.ph/file/3782975aafc54e78e9d0c.mp4'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: `test`.trim() },
             footer: { text: `𝙏𝙝𝙚𝙈𝙫𝙧𝙤-𝘽𝙤𝙩`.trim() },  
@@ -84,29 +84,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                                       id: 'message'
                                   })
                               },
-                              {
-                                  name: 'cta_copy',
-                                  buttonParamsJson: JSON.stringify({
-                                      display_text: 'copy',
-                                      id: '123456789',
-                                      copy_code: 'message'
-                                  })
-                              },
-                              {
-                                  name: 'cta_reminder',
-                                  buttonParamsJson: JSON.stringify({
-                                      display_text: 'cta_reminder',
-                                      id: 'message'
-                                  })
-                              },
-                              {
-                                  name: 'cta_cancel_reminder',
-                                  buttonParamsJson: JSON.stringify({
-                                      display_text: 'cta_cancel_reminder',
-                                      id: 'message'
-                                  })
-                                  
-                              },
+                              
   			  		],
                 messageParamsJson: ''
             }
