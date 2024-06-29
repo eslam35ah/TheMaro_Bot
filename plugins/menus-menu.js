@@ -10,7 +10,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
-            body: { text: `test`.trim() },
+            body: { text: `\n*◞❐البوت يعمل في الخاص والجروبات*`.trim() },
             footer: { text: `𝙏𝙝𝙚𝙈𝙫𝙧𝙤-𝘽𝙤𝙩`.trim() },  
             header: {
                 title: `*┃━━━━━⬣𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐اهـلا بـيـك فـي بـوت مـارو🧛🏻‍♂️*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}`,
